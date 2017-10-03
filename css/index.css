@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(242, 242, 242);
+  font-size: 1em;
+}
+
+.element {
+  float: left;
+  width: 30.8333333333%;
+  height: 370px;
+  margin: 180px 0 0 36.39974%;
+  border-radius: 200px;
+  background-color: rgb(32, 32, 50);
+  -webkit-transition: background 1s;;
+  -moz-transition: background 1s;;
+  -o-transition: background 1s;;
+  -ms-transition: background 1s;;
+  transition: background 1s;;
+}
+
+.element:hover {
+  background-color: rgb(242, 242, 242);
+}
