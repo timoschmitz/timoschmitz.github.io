@@ -1,63 +1,73 @@
 body {
-  background-color: #f2f2f2;
+  background-color: rgb(242, 242, 242);
   font: normal 1.25em/1.38 Dosis-Light;
-  color: #29293a;
+  color: #202032;
 }
 
-.element {
-  position: relative;
-  float: left;
-  z-index: 4;
-  width: 3.6666666666%;
-  height: 44px;
-  margin: 166px 0 0 1.54948%;
-  background-color: #29293a;
-}
-
-.text {
-  float: left;
-  width: 39.0833333333%;
-  min-height: 107px;
+.foot {
+  width: 80%;
+  min-height: 40px;
+  margin: 685px auto 0;
+  font-size: 1em;
   line-height: 1.38;
   text-align: center;
-  color: #29293a;
+  color: #202032;
 }
 
-._input {
-  display: block;
+.sub {
   position: relative;
   float: left;
   clear: both;
-  z-index: 2;
-  width: 22%;
-  height: 44px;
-  margin: 166px 0 0 35.58203%;
-  padding: 0 10px;
-  border-bottom: 1px solid rgb(32, 32, 50);
-  background-color: #f2f2f2;
-  font: 400 1em/1.38 Dosis;
-  color: #29293a;
-}
-
-.text-1 {
-  position: relative;
-  z-index: 0;
-  margin: 257px 0 0 30.41536%;
-  font-size: 2.8em;
-  letter-spacing: 1px;
-}
-
-.text-2 {
-  position: relative;
-  clear: both;
   z-index: 1;
-  margin: -37px 0 0 30.4166666666%;
-  font-size: 1.65em;
-  letter-spacing: 3px;
+  width: 80%;
+  min-height: 40px;
+  margin: -4px 0 0 10%;
+  font-size: 1.45em;
+  line-height: 1.38;
+  text-align: center;
+  color: #202032;
 }
 
-.text-3 {
-  clear: both;
-  margin: 38px 0 0 30.4166666666%;
-  font-size: 1em;
+.wt {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 80%;
+  min-height: 40px;
+  margin: 225px 0 0 10%;
+  font-size: 3.1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #202032;
+}
+
+.foot a {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
 }
